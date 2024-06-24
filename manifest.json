@@ -1,0 +1,59 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"BatemanCodes"
+		]
+	},
+	"header": {
+		"name": "Better Bow",
+		"description": "A lightweight add-on that quickly improves your archery experience in Minecraft, developed by @BatemanCodes.",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "c2c8e766-8f47-4ed9-bb1d-9c222cec5346",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "9d4b46c0-1d4a-4432-9268-7ea6e3dcd1e0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "101e1741-19fb-4509-b2bd-cb5144b98492",
+			"entry": "scripts/customBow.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
