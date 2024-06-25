@@ -14,7 +14,7 @@
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. For more details, refer to the [license file](LICENSE.txt).
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. For more details, refer to the [license file](LICENSE).
 
 ## Contribution
 
