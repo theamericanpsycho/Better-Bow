@@ -27,6 +27,7 @@
 * Discord: @itstheamericanpsycho
 */
 
+
 import * as bc from '@minecraft/server';
 
 function capitalizeWords(str) {
@@ -48,7 +49,7 @@ bc.world.afterEvents.projectileHitEntity.subscribe((data) => {
         return;
 
     if (shooter?.typeId === "minecraft:player" && mainhandItem?.typeId === "minecraft:bow") {
-        shooter?.runCommandAsync(`playsound random.orb @s`);
+        shooter?.playSound(`random.orb`);
 
         if (victim.typeId === "minecraft:player") {
             shooter?.sendMessage(`§9${victim.name}'s HP: §c${health.currentValue.toFixed(2)}`);
